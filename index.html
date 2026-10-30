@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0c12">
+  <meta name="description" content="Discover anime adventures, keep a watchlist, save notes, and find your next favorite story with AnimeVerse.">
+  <title>AnimeVerse — Find your next favorite</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="anime-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="AnimeVerse home"><span class="brand-mark">✦</span><span>ANIME<span class="brand-light">VERSE</span><small data-i18n="tagline">YOUR NEXT STORY STARTS HERE</small></span></a>
+    <div class="top-actions"><button class="icon-button" id="languageBtn" type="button" aria-label="Switch language">বাংলা</button><a class="top-link" href="#collection" data-i18n="browse">Explore</a><button class="primary-button compact" id="addBtn" type="button"><span>＋</span> <span data-i18n="addAnime">Add anime</span></button></div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="eyebrow">A PERSONAL ANIME UNIVERSE</span></p><h1 data-i18n="headline">Find your next<br><em>favorite story.</em></h1><p class="hero-desc" data-i18n="subhead">A shelf of unforgettable worlds, heroes, and adventures — made yours.</p><a class="hero-cta" href="#collection"><span data-i18n="exploreCollection">Explore the collection</span><b>↘</b></a></div>
+      <div class="hero-art" aria-hidden="true"><div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div><div class="hero-sun"></div><div class="hero-spire spire-a"></div><div class="hero-spire spire-b"></div><div class="hero-spire spire-c"></div><div class="hero-caption"><span>ANIMEVERSE</span><small>VOL. 01 — STORIES BEYOND WORLDS</small></div><div class="hero-star star-a">✦</div><div class="hero-star star-b">✧</div></div>
+      <div class="hero-bottom"><span><b id="heroCount">18</b> <span data-i18n="stories">STORIES TO DISCOVER</span></span><span class="hero-scroll">SCROLL TO EXPLORE <b>↓</b></span></div>
+    </section>
+
+    <section class="collection section-wrap" id="collection">
+      <div class="section-heading"><div><p class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="curated">CURATED WORLDS</span></p><h2 data-i18n="collectionTitle">The collection</h2></div><button class="text-button" id="favoritesToggle" type="button">☆ <span data-i18n="favorites">My favorites</span></button></div>
+      <div class="toolbar"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search by title or genre..." aria-label="Search anime"></label><label class="select-wrap"><span data-i18n="genre">Genre</span><select id="genreFilter" aria-label="Filter by genre"></select></label><label class="select-wrap"><span data-i18n="status">Status</span><select id="statusFilter" aria-label="Filter by watch status"></select></label><label class="select-wrap sort-wrap"><span data-i18n="sort">Sort</span><select id="sortSelect" aria-label="Sort collection"></select></label></div>
+      <div class="results-line"><span id="resultCount">18 titles</span><span data-i18n="personalShelf">YOUR PERSONAL SHELF</span></div>
+      <div class="anime-grid" id="animeGrid" aria-live="polite"></div>
+      <div class="empty-state hidden" id="emptyState"><span>✦</span><h3 data-i18n="emptyTitle">No stories found</h3><p data-i18n="emptyText">Try another search or filter.</p></div>
+    </section>
+
+    <section class="closing section-wrap"><div class="closing-mark">✦</div><p class="eyebrow" data-i18n="closingEyebrow">YOUR NEXT ADVENTURE AWAITS</p><h2 data-i18n="closingTitle">Every great story<br>starts somewhere.</h2><button class="primary-button" id="closingAddBtn" type="button"><span>＋</span> <span data-i18n="addToShelf">Add to your shelf</span></button></section>
+  </main>
+  <footer><a class="brand footer-brand" href="#top"><span class="brand-mark">✦</span><span>ANIME<span class="brand-light">VERSE</span></span></a><div class="footer-notice"><span data-i18n="footer">A fan-made personal catalog. Anime titles and artwork belong to their respective owners.</span><details class="credits"><summary data-i18n="creditsTitle">Artwork credits</summary><a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer" aria-label="The Movie Database"><img src="https://www.themoviedb.org/assets/v4/logos/v2/blue_long_2-9665a76b1ae401a510ec1e0ca40ddcb3b0cfe45f1d51b77a308fea0845885648.svg" alt="The Movie Database (TMDB)" loading="lazy"></a><p data-i18n="creditsNotice">Poster images are sourced from TMDB. This non-commercial fan catalog is not endorsed or certified by TMDB. All artwork belongs to its respective rights holders.</p><a class="credits-link" href="POSTER_SOURCES.txt" data-i18n="sourcesLink">View poster sources</a></details></div><a href="#top" class="back-top">↑</a></footer>
+
+  <dialog id="detailDialog" class="detail-dialog"><button class="dialog-close" data-close aria-label="Close">×</button><div id="detailContent"></div></dialog>
+  <dialog id="formDialog" class="form-dialog"><button class="dialog-close" data-close aria-label="Close">×</button><div class="form-heading"><p class="eyebrow" data-i18n="yourCollection">YOUR COLLECTION</p><h2 data-i18n="addNew">Add a new anime</h2><p data-i18n="formHint">Keep a story close for later.</p></div><form id="animeForm"><label><span data-i18n="titleField">Anime title *</span><input name="title" required maxlength="90" placeholder="e.g. Frieren: Beyond Journey’s End"></label><label><span data-i18n="genreField">Genres *</span><input name="genre" required placeholder="Fantasy, Adventure"></label><div class="form-row"><label><span data-i18n="yearField">Year</span><input name="year" inputmode="numeric" maxlength="4" placeholder="2024"></label><label><span data-i18n="ratingField">Rating (0–10)</span><input name="rating" type="number" min="0" max="10" step="0.1" placeholder="8.5"></label></div><label><span data-i18n="storyField">Short story</span><textarea name="description" rows="3" maxlength="500" placeholder="What is this anime about?"></textarea></label><label><span data-i18n="posterField">Poster image</span><input name="poster" type="file" accept="image/*"><small data-i18n="posterHelp">Choose a poster from your device. It stays in this browser.</small></label><label><span data-i18n="watchField">Official watch link</span><input name="watch" type="url" placeholder="https://"></label><div class="form-actions"><button class="secondary-button" type="button" data-close data-i18n="cancel">Cancel</button><button class="primary-button" type="submit" data-i18n="saveAnime">Save anime</button></div></form></dialog>
+  <div class="toast" id="toast" role="status"></div>
+</body>
+</html>
+

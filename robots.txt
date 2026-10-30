@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://itsblackclover1998-debug.github.io/animeverse-website/sitemap.xml

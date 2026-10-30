@@ -1,0 +1,182 @@
+window.ANIMEVERSE_DATA = [
+  {
+    "title": "Demon Slayer",
+    "genre": "Action • Fantasy",
+    "genre_bn": "অ্যাকশন • ফ্যান্টাসি",
+    "year": "2019",
+    "rating": "9.1",
+    "description": "A kindhearted boy joins the Demon Slayer Corps after a demon attack changes his family forever.",
+    "description_bn": "এক ভয়াবহ দানব-আক্রমণে পরিবার হারানোর পর এক দয়ালু কিশোর ডেমন স্লেয়ার দলে যোগ দেয়।",
+    "poster": "Demon_Slayer.jpg"
+  },
+  {
+    "title": "Naruto",
+    "genre": "Adventure • Ninja",
+    "genre_bn": "অ্যাডভেঞ্চার • নিনজা",
+    "year": "2002",
+    "rating": "8.4",
+    "description": "A young ninja dreams of earning his village's respect and becoming its strongest leader.",
+    "description_bn": "এক তরুণ নিনজা গ্রামের স্বীকৃতি পেতে এবং সেরা নেতা হতে চায়।",
+    "poster": "Naruto.jpg"
+  },
+  {
+    "title": "Attack on Titan",
+    "genre": "Dark Fantasy • Drama",
+    "genre_bn": "ডার্ক ফ্যান্টাসি • ড্রামা",
+    "year": "2013",
+    "rating": "9.0",
+    "description": "Humanity fights for survival behind enormous walls as the truth about the Titans comes to light.",
+    "description_bn": "বিশাল প্রাচীরের আড়ালে মানবজাতির টিকে থাকার লড়াই—আর টাইটানদের রহস্য উন্মোচন।",
+    "poster": "Attack_on_Titan.jpg"
+  },
+  {
+    "title": "One Piece",
+    "genre": "Adventure • Fantasy",
+    "genre_bn": "অ্যাডভেঞ্চার • ফ্যান্টাসি",
+    "year": "1999",
+    "rating": "9.0",
+    "description": "Monkey D. Luffy and his crew sail across the seas in search of the legendary One Piece.",
+    "description_bn": "মাঙ্কি ডি. লুফি ও তার বন্ধুরা কিংবদন্তির ওয়ান পিস খুঁজতে সমুদ্রে পাড়ি দেয়।",
+    "poster": "One_Piece.jpg"
+  },
+  {
+    "title": "Jujutsu Kaisen",
+    "genre": "Action • Supernatural",
+    "genre_bn": "অ্যাকশন • অতিপ্রাকৃত",
+    "year": "2020",
+    "rating": "8.7",
+    "description": "Yuji Itadori enters a hidden world of curses and sorcerers to protect the people around him.",
+    "description_bn": "অভিশাপ ও জাদুকরদের গোপন জগতে ইউজি ইতাদোরি প্রিয়জনদের রক্ষা করতে নামে।",
+    "poster": "Jujutsu_Kaisen.jpg"
+  },
+  {
+    "title": "My Hero Academia",
+    "genre": "Action • School",
+    "genre_bn": "অ্যাকশন • স্কুল",
+    "year": "2016",
+    "rating": "8.2",
+    "description": "In a world of superpowers, a determined student works toward becoming a great hero.",
+    "description_bn": "বিশেষ ক্ষমতার দুনিয়ায় এক দৃঢ়প্রতিজ্ঞ ছাত্র বড় মাপের হিরো হওয়ার স্বপ্ন দেখে।",
+    "poster": "My_Hero_Academia.jpg"
+  },
+  {
+    "title": "Death Note",
+    "genre": "Mystery • Thriller",
+    "genre_bn": "রহস্য • থ্রিলার",
+    "year": "2006",
+    "rating": "8.9",
+    "description": "A gifted student discovers a notebook that can kill, setting off a battle of wits.",
+    "description_bn": "এক মেধাবী ছাত্র এমন নোটবুক পায় যা মানুষকে মেরে ফেলতে পারে—শুরু হয় বুদ্ধির লড়াই।",
+    "poster": "Death_Note.jpg"
+  },
+  {
+    "title": "Spy x Family",
+    "genre": "Comedy • Action",
+    "genre_bn": "কমেডি • অ্যাকশন",
+    "year": "2022",
+    "rating": "8.5",
+    "description": "A spy, an assassin, and a telepath form an unusual family while hiding their secrets.",
+    "description_bn": "এক গুপ্তচর, এক ঘাতক আর এক মন-পড়া শিশু গোপন পরিচয়ে অদ্ভুত পরিবার গড়ে।",
+    "poster": "Spy_x_Family.jpg"
+  },
+  {
+    "title": "Black Clover",
+    "genre": "Action • Fantasy • Magic",
+    "genre_bn": "অ্যাকশন • ফ্যান্টাসি • জাদু",
+    "year": "2017",
+    "rating": "8.2",
+    "description": "Asta, born without magic, and his rival Yuno compete to become the Wizard King.",
+    "description_bn": "জাদুহীনভাবে জন্ম নেওয়া আস্তা ও তার প্রতিদ্বন্দ্বী ইউনো উইজার্ড কিং হওয়ার লক্ষ্যে এগোয়।",
+    "poster": "Black_Clover.jpg"
+  },
+  {
+    "title": "Fairy Tail",
+    "genre": "Adventure • Fantasy • Magic",
+    "genre_bn": "অ্যাডভেঞ্চার • ফ্যান্টাসি • জাদু",
+    "year": "2009",
+    "rating": "8.0",
+    "description": "Lucy joins the Fairy Tail mage guild and sets out on quests with her new friends.",
+    "description_bn": "লুসি ফেয়ারি টেইল জাদুকরদের দলে যোগ দিয়ে নতুন বন্ধুদের সঙ্গে নানা অভিযানে যায়।",
+    "poster": "Fairy_Tail.jpg"
+  },
+  {
+    "title": "Bleach",
+    "genre": "Action • Supernatural",
+    "genre_bn": "অ্যাকশন • অতিপ্রাকৃত",
+    "year": "2004",
+    "rating": "8.2",
+    "description": "Ichigo gains Soul Reaper powers and is drawn into battles to protect people and guide spirits.",
+    "description_bn": "ইচিগো সোল রিপারের শক্তি পেয়ে মানুষকে রক্ষা ও আত্মাদের পথ দেখানোর লড়াইয়ে জড়িয়ে পড়ে।",
+    "poster": "Bleach.jpg"
+  },
+  {
+    "title": "Hunter x Hunter",
+    "genre": "Adventure • Fantasy",
+    "genre_bn": "অ্যাডভেঞ্চার • ফ্যান্টাসি",
+    "year": "2011",
+    "rating": "9.0",
+    "description": "Gon takes the Hunter Exam and begins a journey to find his father, meeting friends along the way.",
+    "description_bn": "গন হান্টার পরীক্ষায় অংশ নিয়ে বাবাকে খুঁজতে যাত্রা শুরু করে, পথে নতুন বন্ধুদের সঙ্গে দেখা হয়।",
+    "poster": "Hunter_x_Hunter.jpg"
+  },
+  {
+    "title": "Naruto: Shippuden",
+    "genre": "Action • Adventure • Ninja",
+    "genre_bn": "অ্যাকশন • অ্যাডভেঞ্চার • নিনজা",
+    "year": "2007",
+    "rating": "8.7",
+    "description": "After years of training, Naruto returns home and faces the Akatsuki while pursuing his dream of becoming Hokage.",
+    "description_bn": "কয়েক বছর প্রশিক্ষণের পর নারুতো ফিরে এসে হোকাগে হওয়ার স্বপ্ন নিয়ে আকাতসুকির মুখোমুখি হয়।",
+    "poster": "Naruto_Shippuden.jpg"
+  },
+  {
+    "title": "Record of Ragnarok",
+    "genre": "Action • Fantasy • Tournament",
+    "genre_bn": "অ্যাকশন • ফ্যান্টাসি • টুর্নামেন্ট",
+    "year": "2021",
+    "rating": "7.6",
+    "description": "Humanity gets one final chance when champions face the gods in a series of decisive duels.",
+    "description_bn": "মানবজাতি শেষ সুযোগ পায়—নির্ণায়ক দ্বন্দ্বে মানুষের বীরেরা দেবতাদের মুখোমুখি হয়।",
+    "poster": "Record_of_Ragnarok.jpg"
+  },
+  {
+    "title": "Re:Zero − Starting Life in Another World",
+    "genre": "Drama • Fantasy • Isekai",
+    "genre_bn": "ড্রামা • ফ্যান্টাসি • ইসেকাই",
+    "year": "2016",
+    "rating": "8.2",
+    "description": "Subaru is transported to another world and discovers he can return to a previous point after dying.",
+    "description_bn": "সুবারু অন্য জগতে গিয়ে বুঝতে পারে, মৃত্যুর পর সে আগের এক সময়ে ফিরে যেতে পারে।",
+    "poster": "Re_Zero.jpg"
+  },
+  {
+    "title": "That Time I Got Reincarnated as a Slime",
+    "genre": "Adventure • Fantasy • Isekai",
+    "genre_bn": "অ্যাডভেঞ্চার • ফ্যান্টাসি • ইসেকাই",
+    "year": "2018",
+    "rating": "8.1",
+    "description": "Reborn as a slime in a fantasy world, Rimuru builds a home where different monsters can live together.",
+    "description_bn": "ফ্যান্টাসির জগতে স্লাইম হয়ে নতুন জীবন পেয়ে রিমুরু নানা দানবের জন্য এক নতুন আবাস গড়ে।",
+    "poster": "Slime.jpg"
+  },
+  {
+    "title": "Mushoku Tensei: Jobless Reincarnation",
+    "genre": "Adventure • Drama • Isekai",
+    "genre_bn": "অ্যাডভেঞ্চার • ড্রামা • ইসেকাই",
+    "year": "2021",
+    "rating": "8.3",
+    "description": "A man gets a second life in a world of magic and resolves to make the most of it.",
+    "description_bn": "জাদুর জগতে নতুন জীবন পেয়ে এক ব্যক্তি এবার জীবনটাকে ভালোভাবে কাজে লাগানোর সিদ্ধান্ত নেয়।",
+    "poster": "Mushoku_Tensei.jpg"
+  },
+  {
+    "title": "Overlord",
+    "genre": "Action • Fantasy • Isekai",
+    "genre_bn": "অ্যাকশন • ফ্যান্টাসি • ইসেকাই",
+    "year": "2015",
+    "rating": "7.9",
+    "description": "When a virtual world closes, a player remains inside it as his powerful undead game avatar.",
+    "description_bn": "ভার্চুয়াল দুনিয়া বন্ধ হওয়ার পরও এক খেলোয়াড় তার শক্তিশালী undead চরিত্রের রূপে সেখানেই থেকে যায়।",
+    "poster": "Overlord.jpg"
+  }
+];
